@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/as"
+    android:layout_height="match_parent"
+    tools:context=".menu">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI MASJID"
+        android:textColor="#FFF"
+        android:fontFamily="sans-serif-black"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/b1"
+        android:textSize="16sp"
+        android:background="@drawable/btn_rounded"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_below="@+id/tv"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:text="Jadwal Sholat"/>
+    <Button
+        android:background="@drawable/btn_rounded"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:id="@+id/b2"
+        android:layout_below="@+id/b1"
+        android:text="Identitas"/>
+
+    <Button
+        android:background="@drawable/btn_rounded"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/b3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b2"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:text="Marquee"/>
+    <Button
+        android:background="@drawable/btn_rounded"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:id="@+id/b4"
+        android:layout_below="@+id/b3"
+        android:text="tagline"/>
+
+    <Button
+        android:background="@drawable/btn_rounded"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/b5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b4"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:text="Pengumuman"/>
+    <Button
+        android:background="@drawable/btn_rounded"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:id="@+id/b6"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b5"
+        android:text="slideshow"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/back"
+        android:layout_below="@+id/b6"
+        android:id="@+id/button"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:text="LogOut"
+        />
+
+</RelativeLayout>

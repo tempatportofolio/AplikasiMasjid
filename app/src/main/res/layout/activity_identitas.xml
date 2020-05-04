@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/as"
+    android:layout_height="match_parent"
+    tools:context=".identitas">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDENTITAS MASJID"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"/>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_below="@id/tv"
+        android:id="@+id/tes"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/content"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+    <TextView
+        android:layout_below="@+id/tv"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama"/>
+
+    <TextView
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/nama"
+        android:fontFamily="sans-serif-thin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alamat"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/keupdate"/>
+
+
+    <Button
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/next"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tes"
+        android:text="EDIT IDENTITAS"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/keupdate"/>
+
+</RelativeLayout>

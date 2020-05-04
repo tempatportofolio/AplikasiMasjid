@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/as"
+    android:layout_height="match_parent"
+    tools:context=".edit_marquee">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT MARQUEE MASJID"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-black"
+        android:textSize="26sp"/>
+
+
+    <Button
+        android:id="@+id/btnbck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/back"
+        android:textColor="#fff"
+        android:layout_below="@+id/update2"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/datamarquee"
+        android:text="update"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/update2"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:backgroundTint="@color/cardview_light_background"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColorHint="#fff"
+        android:gravity="center"
+        android:hint="Isi Marquee"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datamarquee"
+        android:layout_below="@+id/tv" />
+
+</RelativeLayout>

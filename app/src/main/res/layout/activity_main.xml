@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/as"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="180dp"
+        android:id="@+id/tv"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI MASJID"/>
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:id="@+id/editTextIsername"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Username"/>
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:layout_below="@id/editTextIsername"
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="password"
+        />
+
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editTextPassword"
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        />
+
+    <TextView
+        android:layout_marginLeft="90dp"
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_toRightOf="@+id/tv"
+        />
+
+</RelativeLayout>

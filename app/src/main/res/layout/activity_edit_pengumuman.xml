@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    tools:context=".edit_pengumuman">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT PENGUMUMAN MASJID"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-black"
+        android:textSize="26sp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:hint="Judul Pengumuman"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:id="@+id/jdlpeng"
+        android:layout_below="@+id/tv"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:hint="Isi Pengumuman"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:id="@+id/isipeng"
+        android:layout_below="@+id/jdlpeng"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/update"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/isipeng"
+        android:text="update"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/update5"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/update5"
+        android:id="@+id/btnbck5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#fff"
+        android:text="Back"/>
+
+</RelativeLayout>

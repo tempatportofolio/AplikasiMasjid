@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    tools:context=".marquee">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARQUEE MASJID"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"/>
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:paddingTop="50dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="50dp"
+        android:layout_below="@id/tv"
+        android:id="@+id/tes"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/content"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_below="@+id/dot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/marku"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:gravity="center"/>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn8"
+        android:background="@drawable/back"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/keupdate2"
+        />
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:background="@drawable/next"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/tes"
+        android:text="EDit MArquee"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/keupdate2"/>
+
+</RelativeLayout>

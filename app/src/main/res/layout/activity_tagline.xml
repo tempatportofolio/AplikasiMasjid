@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/as"
+    android:layout_height="match_parent"
+    tools:context=".tagline">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAGLINE MASJID"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"/>
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:paddingTop="50dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="50dp"
+        android:layout_below="@id/tv"
+        android:id="@+id/tes"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/content"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_below="@+id/tv"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tagline"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/next"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tes"
+        android:text="Edit Tagline"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/keupdate3"/>
+    <Button
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/keupdate3"
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/back"
+        android:text="Back"/>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    tools:context=".pengumuman">
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="50dp"
+        android:layout_below="@id/tv"
+        android:id="@+id/tes"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/content"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/isi"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/next"
+        android:layout_below="@+id/tes"
+        android:text="Edit Pengumuman"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/keupdate5"/>
+    <Button
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back"
+        android:layout_below="@+id/keupdate5"
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="Back"/>
+
+
+</RelativeLayout>

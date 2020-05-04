@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/as"
+    android:layout_height="match_parent"
+    tools:context=".editid">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT IDENTITAS MASJID"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-black"
+        android:textSize="26sp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Masjid"
+        android:textColor="#fff"
+        android:backgroundTint="@color/cardview_light_background"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#fff"
+        android:id="@+id/data1"
+        android:layout_below="@+id/tv"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:textColorHint="#fff"
+        android:backgroundTint="@color/cardview_light_background"
+        android:hint="Alamat Masjid"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/data2"
+        android:layout_below="@+id/data1"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnbck"
+        android:background="@drawable/back"
+        android:textColor="#fff"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/update"/>
+
+
+    <Button
+        android:background="@drawable/update"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/data2"
+        android:text="update"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/update"/>
+
+
+</RelativeLayout>

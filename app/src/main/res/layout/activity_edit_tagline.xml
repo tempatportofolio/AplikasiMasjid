@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/as"
+    android:layout_height="match_parent"
+    tools:context=".edit_tagline">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT TAGLINE MASJID"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-black"
+        android:textSize="35sp"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:hint="Isi tagline"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:id="@+id/datatagline"
+        android:layout_below="@+id/tv"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/update"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/datatagline"
+        android:text="update"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/update3"/>
+    <Button
+        android:layout_below="@+id/update3"
+        android:id="@+id/btnbck3"
+        android:background="@drawable/back"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Back"/>
+
+</RelativeLayout>
